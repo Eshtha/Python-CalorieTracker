@@ -1,5 +1,6 @@
 # tracker.py
-# Author: Eshtha
+# Name: Eshtha
+# Roll Number: 201730450
 # Date: November 2025
 # Project: Daily Calorie Tracker CLI Tool
 
@@ -76,4 +77,5 @@ else:
     print("\nSession not saved. Exiting program.\n")
 
 print("Thank you for using the Daily Calorie Tracker!")
+
 
