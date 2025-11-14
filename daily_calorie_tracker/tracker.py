@@ -55,7 +55,7 @@ save = input("Do you want to save this session to a file? (yes/no): ").strip().l
 
 if save == "yes":
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    filename = f"calorie_log_{timestamp}.txt"
+    filename = f"calorie_log.txt"
 
     with open(filename, "w") as file:
         file.write("==== Daily Calorie Tracker Log ====\n")  
@@ -77,5 +77,3 @@ else:
 
 print("Thank you for using the Daily Calorie Tracker!")
 
-
-git init
